@@ -21,5 +21,5 @@ impl DurationTime for TrafficLight {
 fn main() {
     let light = TrafficLight::Green;
     let seconds = light.time();
-    print!("light duration time is {} seconds", seconds)
+    print!("light duration time is {:?} seconds", seconds)
 }
