@@ -1,30 +1,33 @@
-use std::ops::{Add, Mul, Sub};
 enum Shape<T> {
     Square { line: T },
     Circle { radius: T },
-    Triangle { width: T, height: T },
+    Triangle { a: T, b: T, c: T },
 }
 
-fn area<T: Mul<Output = f64> + Copy + Sub<T, Output = f64> + Add<Output = T>>(
-    shape: Shape<T>,
-) -> f64 {
+fn area<T: Copy + Into<f64>>(shape: Shape<T>) -> f64 {
     match shape {
         Shape::Circle { radius } => {
-            let temp = radius * radius;
-            std::f64::consts::PI * temp
+            let r: f64 = radius.into();
+            std::f64::consts::PI * r * r
         }
-        Shape::Square { line } => line * line,
-        Shape::Triangle { width, height } => width * height * 0.5,
+        Shape::Square { line } => {
+            let l: f64 = line.into();
+            l * l
+        }
+        Shape::Triangle { a, b, c } => {
+            let a: f64 = a.into();
+            let b: f64 = b.into();
+            let c: f64 = c.into();
+            let p = (a + b + c) / 2.0;
+            (p * (p - a) * (p - b) * (p - c)).sqrt()
+        }
     }
 }
 
 fn main() {
-    let triangle = Shape::Triangle {
-        width: 2.3,
-        height: 3.2,
-    };
-    let circle = Shape::Circle { radius: 4.1 };
-    let square = Shape::Square { line: 3.2 };
+    let triangle = Shape::Triangle { a: 2, b: 3, c: 4 };
+    let circle = Shape::Circle { radius: 4.2 };
+    let square = Shape::Square { line: 3 };
     let triangle_area = area(triangle);
     let square_area = area(square);
     let circle_area = area(circle);
