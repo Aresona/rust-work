@@ -2,29 +2,29 @@
 
 #### 创建前
 
-![](/home/binbin/projects/rust-work/week05/images/create01.png)
+![](./images/create01.png)
 
 #### 创建
 
-![](/home/binbin/projects/rust-work/week05/images/create02.png)
+![](./images/create02.png)
 
 #### 创建后
 
-![](/home/binbin/projects/rust-work/week05/images/create03.png)
+![](./images/create03.png)
 
 ### 撤销存证
 
 #### 撤销前
 
-![](/home/binbin/projects/rust-work/week05/images/create03.png)
+![](./images/create03.png)
 
 #### 撤销
 
-![](/home/binbin/projects/rust-work/week05/images/revoke01.png)
+![](./images/revoke01.png)
 
 #### 撤销后
 
-![](/home/binbin/projects/rust-work/week05/images/revoke02.png)
+![](./images/revoke02.png)
 
 ### 转移存证
 
@@ -35,12 +35,12 @@
 
 #### 转移前
 
-![](/home/binbin/projects/rust-work/week05/images/transfer01.png)
+![](./images/transfer01.png)
 
 #### 转移
 
-![](/home/binbin/projects/rust-work/week05/images/transfer02.png)
+![](./images/transfer02.png)
 
 #### 转移后
 
-![](/home/binbin/projects/rust-work/week05/images/transfer03.png)
+![](./images/transfer03.png)
