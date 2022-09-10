@@ -95,12 +95,14 @@ pub mod pallet {
 			let who = ensure_signed(origin)?;
 			let kitty_id = Self::get_next_id().map_err(|_| Error::<T>::InvalidKittyId)?;
 
+            // create kitty
 			let dna = Self::random_value(&who);
 			let kitty = Kitty(dna);
 
 			// reserve token
 			T::Currency::reserve(&who, T::ReservableFee::get())?;
 
+            // store
 			Kitties::<T>::insert(kitty_id, &kitty);
 			KittyOwner::<T>::insert(kitty_id, &who);
 			NextKittyId::<T>::set(kitty_id + One::one());
@@ -111,6 +113,7 @@ pub mod pallet {
 
 			// Emit an event
 			Self::deposit_event(Event::KittyCreated(who, kitty_id, kitty));
+
 			Ok(())
 		}
 
@@ -144,14 +147,16 @@ pub mod pallet {
 			// reserve token
 			T::Currency::reserve(&who, T::ReservableFee::get())?;
 
+            // store
 			<Kitties<T>>::insert(kitty_id, &new_kitty);
 			KittyOwner::<T>::insert(kitty_id, &who);
 			NextKittyId::<T>::set(kitty_id + One::one());
-
 			OwneredKitties::<T>::try_mutate(&who, |kitties_vec| {
 				kitties_vec.try_push(new_kitty.clone())
 			})
 			.map_err(|_| <Error<T>>::OwneredKittiesExceed)?;
+
+            // emit event
 			Self::deposit_event(Event::KittyBreed(who, kitty_id, new_kitty));
 
 			Ok(())
@@ -173,8 +178,8 @@ pub mod pallet {
 
 			ensure!(Self::kitty_owner(kitty_id) == Some(who.clone()), Error::<T>::NotOwner);
 
+            // remove kitty from origin
 			<KittyOwner<T>>::insert(kitty_id, &new_owner);
-
 			OwneredKitties::<T>::try_mutate(&who, |kitties_vec| {
 				if let Some(index) = kitties_vec.iter().position(|kitty| kitty == &origin_kitty) {
 					kitties_vec.swap_remove(index);
@@ -184,11 +189,13 @@ pub mod pallet {
 			})
 			.map_err(|_| Error::<T>::OwneredKittiesNotTransferred)?;
 
+            // add kitty to new_owner
 			OwneredKitties::<T>::try_mutate(&new_owner, |kitties_vec| {
 				kitties_vec.try_push(origin_kitty.clone())
 			})
 			.map_err(|_| <Error<T>>::OwneredKittiesExceed)?;
 
+            // emit event
 			Self::deposit_event(Event::KittyTransferred(who, new_owner, kitty_id));
 
 			Ok(())
