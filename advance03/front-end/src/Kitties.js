@@ -12,10 +12,10 @@ export default function Main(props) {
 	const [kitties, setKitties] = useState([])
 
 	useEffect(async () => {
-		await getDnas()
-	}, [])
+		await getAllKitties()
+	}, [status])
 
-	const getDnas = async () => {
+	const getAllKitties = async () => {
 		const currentId = await api.query.kitties.nextKittyId()
 		let kittyIds = [...Array(parseInt(currentId)).keys()]
 		await api.query.kitties.kitties.multi(kittyIds, async (dnas) => {
