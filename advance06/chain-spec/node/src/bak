@@ -1,0 +1,162 @@
+➜  release git:(master) ./subkey generate
+Secret phrase:       adult giant ring unveil guide decide book among want medal soccer average
+  Network ID:        substrate
+  Secret seed:       0x12b9aaae0630d30a312b2725dc8406273c775824b9444f0c5e61aa88a6e4022d
+  Public key (hex):  0x50ae2008460df655bf065bd71a0775cf41c42390130d6fa8e8c409833f0ee41a
+  Account ID:        0x50ae2008460df655bf065bd71a0775cf41c42390130d6fa8e8c409833f0ee41a
+  Public key (SS58): 5DtVQxdE2fxrE2YY2pbpWjfXWN38Ei5LYDmoCbvGfQ3iRvyM
+  SS58 Address:      5DtVQxdE2fxrE2YY2pbpWjfXWN38Ei5LYDmoCbvGfQ3iRvyM
+
+
+➜  substrate-stencil git:(master) ✗ ./target/release/substrate-stencil key generate
+Secret phrase:       lawsuit idea hurdle ripple stool smart scorpion winner order chair episode position
+  Network ID:        substrate
+  Secret seed:       0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7
+  Public key (hex):  0x00b517ae09a3d66b9420290f1b5bcbb2008c7b77dc0d4d0a13e00b2204804e55
+  Account ID:        0x00b517ae09a3d66b9420290f1b5bcbb2008c7b77dc0d4d0a13e00b2204804e55
+  Public key (SS58): 5C5depWKCYf3ujKsnDNQm1yVKuF6eWoBvPGK36QdPXj3gJo1
+  SS58 Address:      5C5depWKCYf3ujKsnDNQm1yVKuF6eWoBvPGK36QdPXj3gJo1
+
+
+  Account ID:        0xba37c87f60ebc60460db249a498c513f2d3858ed16c17d0a2b6d898f5fa9f059
+  Public key (SS58): 5GGsLNUHKEbJnNP4hnbQRwTQf6E8h1AdPqrUtAZ2Bb7wtypZ
+  SS58 Address:      5GGsLNUHKEbJnNP4hnbQRwTQf6E8h1AdPqrUtAZ2Bb7wtypZ
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//1//controller` is account:
+  Network ID:        substrate
+ Secret seed:       0xd86c2114282e354533ab28791f4a4e215860819a5ea833b62cf1eb08c808df4e
+  Public key (hex):  0xa064b8e905c40c1cb20cb74ecd60648befc58b6ee2c0a9ce9fd5941718702546
+  Account ID:        0xa064b8e905c40c1cb20cb74ecd60648befc58b6ee2c0a9ce9fd5941718702546
+  Public key (SS58): 5Fh1SSgybjCKZgXcKEmBkrt8vNdu6nBi2yz45Dm1U73T1x45
+  SS58 Address:      5Fh1SSgybjCKZgXcKEmBkrt8vNdu6nBi2yz45Dm1U73T1x45
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//2//stash` is account:
+  Network ID:        substrate
+ Secret seed:       0xfdd9df0a52ece01bf510b4fa49298bf382c0addd3b0d1338544f67ae192323a6
+  Public key (hex):  0x70f3d0c23873e0ee25cfb8d6c77dcef9f2b0aea860d8197721b5d1909430375d
+  Account ID:        0x70f3d0c23873e0ee25cfb8d6c77dcef9f2b0aea860d8197721b5d1909430375d
+  Public key (SS58): 5Ecoea3BU226SNgB6YYv77wPUgwn1F3K4qWkqZiqdnGRZvJ5
+  SS58 Address:      5Ecoea3BU226SNgB6YYv77wPUgwn1F3K4qWkqZiqdnGRZvJ5
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//2//controller` is account:
+  Network ID:        substrate
+ Secret seed:       0x5c2497d83035e264204bb7fc7df44e84e86bb39c76e2d4eed9cd81ed780cbc33
+  Public key (hex):  0x7c56a9f13137a5fcb3c0f9acbdff04418540b116eb771ae998bba6c729f09825
+  Account ID:        0x7c56a9f13137a5fcb3c0f9acbdff04418540b116eb771ae998bba6c729f09825
+  Public key (SS58): 5EsjYEoCaYzLunqrwyPaChcGie7dUe4wF8GKjFHYizKKaCHQ
+  SS58 Address:      5EsjYEoCaYzLunqrwyPaChcGie7dUe4wF8GKjFHYizKKaCHQ
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//3//stash` is account:
+  Network ID:        substrate
+ Secret seed:       0xa43398643585b02123c35afbc6340eb59c60d970cec1cd53ccedef383d5155de
+  Public key (hex):  0x6436915f71d64fa09d94a4af91474e5e3564356be7a0ccb53ccafb6aa60dda64
+  Account ID:        0x6436915f71d64fa09d94a4af91474e5e3564356be7a0ccb53ccafb6aa60dda64
+  Public key (SS58): 5EL6rajXMe6StXFwaRSNtzoi5tzffYrf8m8AEkKDykfFBDfa
+  SS58 Address:      5EL6rajXMe6StXFwaRSNtzoi5tzffYrf8m8AEkKDykfFBDfa
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//3//controller` is account:
+  Network ID:        substrate
+ Secret seed:       0x1a6833d65d4650249ffef3de385e1fba1a0405393b6061e2b7731f09b473a815
+  Public key (hex):  0xa283dcd04c7fbe384f615ae40655bb3e505605df96e8b5b0bb64c83241fd313e
+  Account ID:        0xa283dcd04c7fbe384f615ae40655bb3e505605df96e8b5b0bb64c83241fd313e
+  Public key (SS58): 5FjnnXq3BTW71FiQxw3Cnzp7zc21bF4LF9kSP2mvJzUCzv2B
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//4//stash` is account:
+  Network ID:        substrate
+ Secret seed:       0xc3383900b8afbbed8d8cf826e03aaaf09ff3700ec64b7f3c7645bc1bae43ea75
+  Public key (hex):  0x005506dbc09f06f73bc26bb8716e4905b46d3b3993d35171ee4954b238824650
+  Account ID:        0x005506dbc09f06f73bc26bb8716e4905b46d3b3993d35171ee4954b238824650
+  Public key (SS58): 5C597eSEXBQx2KxQ27TEDRi7CvGJj3Dd8s6bLtwXWKmSFpxa
+  SS58 Address:      5C597eSEXBQx2KxQ27TEDRi7CvGJj3Dd8s6bLtwXWKmSFpxa
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//4//controller` is account:
+  Network ID:        substrate
+ Secret seed:       0xb07efae9a156af23f21ed5a18f41428457f7ea77650f54f16e6ce4f20c47f66a
+  Public key (hex):  0x7a1098e6a92b3d0ec16466d34497a068c35a132ced8d536efb5eb19dc5dd4a1a
+  Account ID:        0x7a1098e6a92b3d0ec16466d34497a068c35a132ced8d536efb5eb19dc5dd4a1a
+  Public key (SS58): 5EpkdTwFVYbd5XZVSuG25JvK3tBitfc1LmPFZN9Tua93xKhw
+  SS58 Address:      5EpkdTwFVYbd5XZVSuG25JvK3tBitfc1LmPFZN9Tua93xKhw
+
+// babe
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//1//babe` is account:
+  Network ID:        substrate
+ Secret seed:       0x9d18d208059a22b236d42385407142ce7956e4fd6f99e6fc003243f1fbd95043
+  Public key (hex):  0xd43d0417895bdb274e0fe3130045e04be549cad44a7cd30983039e9ba658725b
+  Account ID:        0xd43d0417895bdb274e0fe3130045e04be549cad44a7cd30983039e9ba658725b
+  Public key (SS58): 5Grz8jseiqJZ8vvpZRTzKNPvFd9TxSEoe9i5GCrZpTYakqsB
+  SS58 Address:      5Grz8jseiqJZ8vvpZRTzKNPvFd9TxSEoe9i5GCrZpTYakqsB
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//2//babe` is account:
+  Network ID:        substrate
+ Secret seed:       0x0f247c10b65bfb3381f358e8a647050fe5125a2330ff067bd6a395ac8e78f599
+  Public key (hex):  0xee08d33b52d26d92cb3158261a5efa59917ad145d586532b46f0c9b371b70443
+  Account ID:        0xee08d33b52d26d92cb3158261a5efa59917ad145d586532b46f0c9b371b70443
+  Public key (SS58): 5HSosirwi8pQzuikiLDB5QQ2Fwxcgqf3gd6QMJWky9RF7ccN
+  SS58 Address:      5HSosirwi8pQzuikiLDB5QQ2Fwxcgqf3gd6QMJWky9RF7ccN
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//3//babe` is account:
+  Network ID:        substrate
+ Secret seed:       0xae87f9f56dc0bc3000687a37ba3a3616121753d3b9e12864ab2735c0ba6bb9d7
+  Public key (hex):  0x5c6b1ff7dcb2422bb80769f3af90b03036e941320de0673476db63804e1e8a4e
+  Account ID:        0x5c6b1ff7dcb2422bb80769f3af90b03036e941320de0673476db63804e1e8a4e
+  Public key (SS58): 5E9t5uASkS124ufNaHGrRNCFnmEn2RutZe797VGj8cPC8EFx
+  SS58 Address:      5E9t5uASkS124ufNaHGrRNCFnmEn2RutZe797VGj8cPC8EFx
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//4//babe` is account:
+  Network ID:        substrate
+ Secret seed:       0xcd7b256326b47fa98bb04001c6d8c35a654c92ea35b1f4edb2eacef2f6460cf4
+  Public key (hex):  0x447ceb60c03518941520b38886832d2eadacafb56cce426b4affbee0038fa958
+  Account ID:        0x447ceb60c03518941520b38886832d2eadacafb56cce426b4affbee0038fa958
+  Public key (SS58): 5DcWDqZ97KoQbVRVMXDpbN2fCxCWFr6KciuW4omwuwKMQVAQ
+  SS58 Address:      5DcWDqZ97KoQbVRVMXDpbN2fCxCWFr6KciuW4omwuwKMQVAQ
+//grandpa
+➜  substrate-stencil git:(master) ✗ for i in 1 2 3 4;do for j in grandpa;do ./subkey inspect --scheme ed25519 "$SECRET//$i//$j";done;done;
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//1//grandpa` is account:
+  Network ID:        substrate
+ Secret seed:       0xf69acfd3a8cbc7d01ed1e84de74d939d3967afd56a224bf5aa31cbb6cf0df206
+  Public key (hex):  0xed3de343da8c647ab04a44dba513ab5322621e3b53ac36dd6384e5b0317a6687
+  Account ID:        0xed3de343da8c647ab04a44dba513ab5322621e3b53ac36dd6384e5b0317a6687
+  Public key (SS58): 5HRmbC9mrQDaVNkXAbuTstYv3St8GVaGRojWYXRSNwe6UJ5X
+  SS58 Address:      5HRmbC9mrQDaVNkXAbuTstYv3St8GVaGRojWYXRSNwe6UJ5X
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//2//grandpa` is account:
+  Network ID:        substrate
+ Secret seed:       0x1fd229cc7f758cf6cd3afbc780b34af6e5359e3bcd8efd4521f9a8e5bd4dc015
+  Public key (hex):  0x6872710961bbd29f79ce129bc596f48163a4bccce28b4c05e9bad267ea3fab15
+  Account ID:        0x6872710961bbd29f79ce129bc596f48163a4bccce28b4c05e9bad267ea3fab15
+  Public key (SS58): 5EReqHr85oWyW8iBCsWtapczegai5RPKVwbnFSnzUjqz8mJ6
+  SS58 Address:      5EReqHr85oWyW8iBCsWtapczegai5RPKVwbnFSnzUjqz8mJ6
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//3//grandpa` is account:
+  Network ID:        substrate
+ Secret seed:       0x9194702d4d498685347f6d13fe958c982207f119a5de194c3bf6689e33f2282f
+  Public key (hex):  0xae3f9d90dc81176374cdf5b47f68d4f10cbd5baf25e85bbae6a8bb472715966d
+  Account ID:        0xae3f9d90dc81176374cdf5b47f68d4f10cbd5baf25e85bbae6a8bb472715966d
+  Public key (SS58): 5G1B5zQcTajNtAKVuC86PsGFEH6hNd86NcpKAnuE95qNW2Gp
+  SS58 Address:      5G1B5zQcTajNtAKVuC86PsGFEH6hNd86NcpKAnuE95qNW2Gp
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//4//grandpa` is account:
+  Network ID:        substrate
+ Secret seed:       0x0eb6be19f647757343912c79ccc48bc9fdf036806bcfbd031c3878829e45c0cf
+  Public key (hex):  0x4d1667430dd50a318dceaf67066cb4e283a60fc847fd668e2f7585e3084d88bb
+  Account ID:        0x4d1667430dd50a318dceaf67066cb4e283a60fc847fd668e2f7585e3084d88bb
+  Public key (SS58): 5DonCXHBSuRDCVbRq7P57t6Nox8rYEuZ6onhAdnDD3MfQCtQ
+  SS58 Address:      5DonCXHBSuRDCVbRq7P57t6Nox8rYEuZ6onhAdnDD3MfQCtQ
+
+  //imonline
+➜  substrate-stencil git:(master) ✗ for i in 1 2 3 4;do for j in imonline;do ./subkey inspect "$SECRET//$i//$j";done;done;
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//1//imonline` is account:
+  Network ID:        substrate
+ Secret seed:       0x8cc6dc6164038a9698aa9c0255e72a06c24cc120caf5840fb3624ccc9c1930c1
+  Public key (hex):  0xc2d6b7b1abf7669ba2636af6091fa911c5424ea0cb0cd1eec6194d9ba7158e1f
+  Account ID:        0xc2d6b7b1abf7669ba2636af6091fa911c5424ea0cb0cd1eec6194d9ba7158e1f
+  Public key (SS58): 5GUAvxuobq8cfassAKTupBtDVLZzhtXcQjdbLLPV1fQ8p5VZ
+  SS58 Address:      5GUAvxuobq8cfassAKTupBtDVLZzhtXcQjdbLLPV1fQ8p5VZ
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//2//imonline` is account:
+  Network ID:        substrate
+ Secret seed:       0x5f22e3b1c990df2e0a7cb65c66de3bbdceb25b27fe8621c3c8b7dac596215c9e
+  Public key (hex):  0xc0526b186c8ea39766211f3e22a96513cafb19679e49cc4cfbf2c48a7ae1f916
+  Account ID:        0xc0526b186c8ea39766211f3e22a96513cafb19679e49cc4cfbf2c48a7ae1f916
+  Public key (SS58): 5GQsXwvbu4Au4f28vGqB5AgHKBAfasjh3w5fUdVJLNw7mGW3
+  SS58 Address:      5GQsXwvbu4Au4f28vGqB5AgHKBAfasjh3w5fUdVJLNw7mGW3
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//3//imonline` is account:
+  Network ID:        substrate
+ Secret seed:       0x37930a6d73f82f2b0ee52bb44d42607856fd267e14230509b5b1dfdd65cb0a39
+  Public key (hex):  0x6483b8cddb4aa9d167abce4523c6a48a96eff096776c71f6e3a6381e045b4160
+  Account ID:        0x6483b8cddb4aa9d167abce4523c6a48a96eff096776c71f6e3a6381e045b4160
+  Public key (SS58): 5ELVmv3cRW15hwSe8sKT5EAjntxTy3eh9mjk7d1EX8XCNmBA
+  SS58 Address:      5ELVmv3cRW15hwSe8sKT5EAjntxTy3eh9mjk7d1EX8XCNmBA
+Secret Key URI `0x37091d56f7b300c29805d9b41f1731ea0937317fcf2878cd34fdde25e05312d7//4//imonline` is account:
+  Network ID:        substrate
+ Secret seed:       0x17f123c83d06c6e9ffb4112e87a985333df514354e63061fe213be5381ff0563
+  Public key (hex):  0xf4a11941ab186eae556f5752b665b35cca8d00611b4091e245f15cd329f50259
+  Account ID:        0xf4a11941ab186eae556f5752b665b35cca8d00611b4091e245f15cd329f50259
+  Public key (SS58): 5HbTPzriH3vEVyqGu4quUtuH4QMiyMMgvXqD57PhYNKXsUuk
+  SS58 Address:      5HbTPzriH3vEVyqGu4quUtuH4QMiyMMgvXqD57PhYNKXsUuk
